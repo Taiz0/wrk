@@ -1,57 +1,86 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>My One-Page Website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-	<script>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* Style for hover bar */
+        .hover-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        /* Style for sections */
+        .section {
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        /* Style for video slideshow */
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Style for footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-	<div class="hover-bar">
-		<a href="#home">Home</a>
-		<a href="#about">About Us</a>
-	</div>
-	<section id="home" class="home">
-		<h1>Welcome to our website</h1>
-		<p>Check out our latest products and place your order now!</p>
-		<div class="slider">
-			<div class="slide">
-				<img src="https://picsum.photos/250/200" alt="Product 1">
-				<h2>Product 1</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a href="#" class="order-button">Order Now</a>
-			</div>
-			<div class="slide">
-				<img src="https://picsum.photos/250/200" alt="Product 2">
-				<h2>Product 2</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a href="#" class="order-button">Order Now</a>
-			</div>
-			<div class="slide">
-				<img src="https://picsum.photos/250/200" alt="Product 3">
-				<h2>Product 3</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a href="#" class="order-button">Order Now</a>
-			</div>
-			<div class="slide">
-				<img src="https://picsum.photos/250/200" alt="Product 4">
-				<h2>Product 4</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a href="#" class="order-button">Order Now</a>
-			</div>
-			<div class="slide">
-				<img src="https://picsum.photos/250/200" alt="Product 5">
-				<h2>Product 5</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-				<a href="#" class="order-button">Order Now</a>
-			</div>
-		</div>
-	</section>
-	<section id="about" class="about">
-		<h2>About Us</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac bibendum metus. Nullam euismod metus eu eros mollis congue. Pellentesque vitae lectus sit amet
-	</section>
+
+<div class="hover-bar">
+    <h1>Hover Bar Intro</h1>
+</div>
+
+<div id="personal-info" class="section">
+    <h2>Personal Information</h2>
+    <!-- Add your personal information here -->
+</div>
+
+<div id="career" class="section">
+    <h2>Career</h2>
+    <!-- Add your career details here -->
+</div>
+
+<div id="education" class="section">
+    <h2>Education</h2>
+    <!-- Add your education details here -->
+</div>
+
+<div id="videos" class="section">
+    <h2>Videos</h2>
+    <div class="slideshow-container">
+        <!-- Add your video slideshow here -->
+    </div>
+</div>
+
+<div id="computer-skills" class="section">
+    <h2>Computer Skills</h2>
+    <!-- Add your computer skills here -->
+</div>
+
+<div id="hobbies" class="section">
+    <h2>Hobbies</h2>
+    <!-- Add your hobbies here -->
+</div>
+
+<footer>
+    <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+</footer>
+
 </body>
+</html>
